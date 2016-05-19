@@ -1,6 +1,7 @@
 <?hh // strict
 
 /* HH_IGNORE_ERROR[1002] */
+/*fl@g:{githubCanRevealAPI}*/
 SessionUtils::sessionStart();
 SessionUtils::enforceLogin();
 SessionUtils::enforceAdmin();
